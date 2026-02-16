@@ -1,0 +1,30 @@
+<div class="login-wrapper">
+
+    <a href="home/index" class="back-to-login-btn">
+  ← Volver al Login
+</a>
+  <form class="login-card" (ngSubmit)="login()">
+
+    <h2>Iniciar Sesión</h2>
+
+    <input
+      type="text"
+      placeholder="Usuario"
+      [(ngModel)]="username"
+      name="user"
+      required>
+
+    <input
+      type="password"
+      placeholder="Contraseña"
+      [(ngModel)]="password"
+      name="pass"
+      required>
+
+    <button type="submit">Entrar</button>
+
+    <p class="error" *ngIf="error">{{error}}</p>
+
+  </form>
+
+</div>
