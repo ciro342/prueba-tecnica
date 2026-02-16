@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/prueba-tecnica": {},
+    "/prueba-tecnica/home/dashboard": {},
+    "/prueba-tecnica/home/index": {},
+    "/prueba-tecnica/home/login": {}
+  }
+}
