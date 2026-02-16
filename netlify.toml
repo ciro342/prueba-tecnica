@@ -1,7 +1,7 @@
 [build]
+  command = "ng build"  # Construcción sin SSR
   publish = "dist/prueba-tecnica2/browser"
-  command = "npm run build"
-
+  
 [[redirects]]
   from = "/*"
   to = "/index.html"
